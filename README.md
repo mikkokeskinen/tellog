@@ -16,7 +16,7 @@ Installation
 
 Clone the repository
 
-    git clone TODO
+    git clone git@github.com:mikkokeskinen/tellog.git
 
 Change to the directory, create a Python virtualenv and activate it.
 
