@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tellog search</title>
+    </head>
+    <body>
+        <form action="" method="get">
+            {{ form }}
+            <input type="submit" value="Search">
+        </form>
+        {% for message in messages %}
+            <div>
+                <strong>{{ message.chat_name }}</strong>: {{ message.text }}
+            </div>
+        {% endfor %}
+    </body>
+</html>

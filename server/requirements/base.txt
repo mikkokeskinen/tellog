@@ -1,0 +1,6 @@
+Django==1.10.5
+django-cors-headers==2.0.2
+psycopg2==2.6.2
+pytz==2016.10
+requests==2.13.0
+voluptuous==0.9.3
